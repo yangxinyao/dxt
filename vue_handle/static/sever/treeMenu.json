@@ -1,0 +1,105 @@
+{
+    "code":1,
+    "data":[
+        {
+         "id": "1",
+         "label": "应用菜单树",
+         "level": "1",
+         "children":[
+             {
+                "id": "1",
+                "label": "组织权限管理",
+                "level": "2",
+                "children":[
+                    {
+                      "id": "1",
+                      "label": "员工账号管理",
+                      "level": "3",
+                      "type": "yuan"
+                    },
+                    {
+                      "id": "2",
+                      "label": "应用功能管理",
+                      "level": "3",
+                      "type": "yingyong"
+                    },
+                    {
+                      "id": "3",
+                      "label": "配置业务字典",
+                      "level": "3",
+                      "type": "pei"
+                    },
+                    {
+                      "id": "4",
+                      "label": "组织机构管理",
+                      "level": "3",
+                      "type": "zuzhi"
+                    }
+                ]
+             },
+             {
+                "id": "2",
+                "label": "我的工作",
+                "level": "2",
+                "children": [
+                    {
+                        "id": "1",
+                        "label": "员工账号管理",
+                        "level": "3",
+                        "type": "yuan"
+                    },
+                    {
+                        "id": "2",
+                        "label": "应用功能管理",
+                        "level": "3",
+                        "type": "yingyong"
+                    },
+                    {
+                        "id": "3",
+                        "label": "配置业务字典",
+                        "level": "3",
+                        "type": "pei"
+                    },
+                    {
+                        "id": "4",
+                        "label": "组织机构管理",
+                        "level": "3",
+                        "type": "zuzhi"
+                    }
+                ]
+            },
+            {
+                "id": "3",
+                "label": "客户管理",
+                "level": "2",
+                "children": [
+                    {
+                        "id": "1",
+                        "label": "员工账号管理",
+                        "level": "3",
+                        "type": "yuan"
+                    },
+                    {
+                        "id": "2",
+                        "label": "应用功能管理",
+                        "level": "3",
+                        "type": "yingyong"
+                    },
+                    {
+                        "id": "3",
+                        "label": "配置业务字典",
+                        "level": "3",
+                        "type": "pei"
+                    },
+                    {
+                        "id": "4",
+                        "label": "组织机构管理",
+                        "level": "3",
+                        "type": "zuzhi"
+                    }
+                ]
+            }
+         ]
+    }],
+    "message":"请求成功"
+}
