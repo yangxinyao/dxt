@@ -1,8 +1,28 @@
 <template>
     <div>
-        <el-tabs v-model="activeName" @tab-click="handleClick">
-            <el-tab-pane label="用户管理" name="first">菜单管理</el-tab-pane>
-        </el-tabs>
+        <el-form :inline="true" :model="formInline" class="demo-form-inline">
+  <el-form-item label="菜单名称">
+    <el-input v-model="formInline.user"></el-input>
+  </el-form-item>
+  <el-form-item label="菜单代码">
+    <el-input v-model="formInline.user"></el-input>
+  </el-form-item>
+  <el-form-item label="菜单显示名称">
+    <el-input v-model="formInline.user"></el-input>
+  </el-form-item>
+   <el-form-item label="菜单显示顺序">
+    <el-input v-model="formInline.user"></el-input>
+  </el-form-item>
+   <el-form-item label="功能资源">
+    <el-input v-model="formInline.user"></el-input>
+  </el-form-item>
+  <el-form-item label="是否为叶子菜单">
+    <el-input v-model="formInline.user"></el-input>
+  </el-form-item>
+  <el-form-item>
+    <el-button type="primary" @click="onSubmit">保存</el-button>
+  </el-form-item>
+</el-form>
 
     </div>
 </template>
@@ -10,15 +30,18 @@
  export default {
     data() {
       return {
-        activeName: 'second'
-      };
+        formInline: {
+          user: '',
+          region: ''
+        }
+      }
     },
     methods: {
-      handleClick(tab, event) {
-        console.log(tab, event);
+      onSubmit() {
+        console.log('submit!');
       }
     }
-  };
+  }
 </script>
 <style>
 
